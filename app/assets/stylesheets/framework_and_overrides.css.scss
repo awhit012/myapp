@@ -46,3 +46,53 @@ section {
   @extend .row;
   margin-top: 20px;
   }
+  
+  div.resume {
+	  margin-left: 20px;
+  }
+
+ .heading { 
+	  width: 730px; 
+	  height: 133px; 
+	  line-height: 0px; 
+	  color: transparent; 
+	  font-size: 50px; 
+	  font-weight: 300; 
+	  text-transform: uppercase; 
+	  -webkit-transition: all 0.5s ease; 
+	  -moz-transition: all 0.5s ease; 
+	  -o-transition: all 0.5s ease; 
+	  margin-top: 50px;
+  } 
+
+.heading:hover { 
+	line-height: 133px; 
+	color: #575858; 
+} 
+	
+.zoom_pic{
+	border: 10px solid #fff;  
+	margin-left: auto;
+	margin-right: auto;
+	height: 300px;
+	margin: 20px;
+	overflow: hidden;
+   
+	-webkit-box-shadow: 5px 5px 5px #111;
+	        box-shadow: 5px 5px 5px #111;   
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	    -ms-box-sizing: border-box;
+		    box-sizing: border-box;
+	-webkit-transition: all 1s ease;
+	   -moz-transition: all 1s ease;
+		 -o-transition: all 1s ease;
+	    -ms-transition: all 1s ease;
+			transition: all 1s ease;
+	
+}
+ 
+.zoom_pic:hover {
+    height: 400px;
+	
+}
